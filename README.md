@@ -4,6 +4,20 @@
 
 This document explains how IPv4 addresses are categorized into public and private ranges. It describes the reserved private address spaces, other special-purpose ranges, and provides guidance on distinguishing internal addresses from publicly routable ones.
 
+## Basic rule for identifying private addresses
+
+| IP Range | Private |
+|----------|---------|
+| 10.x.x.x | Yes |
+| 172.16.x.x – 172.31.x.x | Yes |
+| 192.168.x.x | Yes |
+
+## Private ranges defined in RFC 1918
+
+- 10.0.0.0/8
+- 172.16.0.0/12
+- 192.168.0.0/16
+
 ## Public IPv4 Addresses
 
 Public IPv4 addresses are globally routable on the Internet. Any address that does not belong to a reserved or special-purpose range can be assigned to a device that is reachable from the Internet.
